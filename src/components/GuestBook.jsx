@@ -2,7 +2,7 @@ import React, { useState,Link } from "react";
 import axios from "axios";
 
 const GuestBook = () => {
-  const apiUrl = "http://localhost:5760"
+  const apiUrl = "https://wedding-dxur.onrender.com";
   const [formData, setFormData] = useState({
     FirstName: "",
     LastName:"",
